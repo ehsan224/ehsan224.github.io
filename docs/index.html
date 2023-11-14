@@ -5,57 +5,79 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page-4f86987a.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-a703a65c.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-4245627b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-3e072c36.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-f8c3401b.js">
+		<link href="./_app/immutable/assets/_page-3ca166f8.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-7d254847.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-a9179169.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-af271202.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-0ec43a99.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/control-f5b05b5f.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/parse-f0c618df.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a6b23dec.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-af4cb13a.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-6483f64b.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-016361f3.js">
 	</head>
-	<body>
+	<body style="background-color: rgb(241, 116, 7);">
+
 		<div style="display: contents">
 
 
 <nav><a href="/">Hem</a>
   <a href="/memory">Memory</a>
   <a href="/telltale">Telltale</a>
+  <a href="/photoapp">Photo App</a>
 
   <a target="_blank" rel="noreferrer" href="https://github.com/lisaviktorsson/lisaviktorsson.github.com">GitHub</a></nav>
 
 <hr>
 
-<h1 align="center" class="svelte-1n8pj36">Välkommen till min hemsida!
+<main><h1 align="center">Välkommen till min hemsida!
   
 </h1>
-
-<h2 class="color svelte-1n8pj36">Här har jag samlat min uppgifter jag gjort i samband med webbutveckling i årskurs 2 på Maja Beskowgymnasiet!</h2>
-<p id="inspo" class="svelte-1n8pj36">&quot;The only way to learn a new programming language is by writing
-  programs in it.&quot; - Dennis Ritchie, creator of the C programming language.
-  </p>
-<p style="align=center" class="svelte-1n8pj36">Click here 
-  
-
-  <button class="svelte-1n8pj36">Clicked 0
-    times</button>
-
-  
-</p>
+<p id="inspo" class="svelte-1svhm80">&quot;The only way to learn a new programming language is by writing
+programs in it.&quot; - Dennis Ritchie, creator of the C programming language.
+</p></main>
 
 
-		<script type="module" data-sveltekit-hydrate="v83jmh">
-			import { start } from "./_app/immutable/start-a703a65c.js";
+
+
+<body><img src="Welocme.jpg" alt="Welcome" class="bild-storlek svelte-1svhm80">
+  <div id="timer" class="svelte-1svhm80">00:00:00</div>
+<button onclick="startTimer(60)" class="svelte-1svhm80">Start Timer</button>
+
+
+
+<script>let interval;
+
+    function startTimer(duration) {
+        let timerDisplay = document.getElementById("timer");
+        let timer = duration;
+
+        interval = setInterval(function () {
+            const hours = Math.floor(timer / 3600);
+            const minutes = Math.floor((timer % 3600) / 60);
+            const seconds = timer % 60;
+
+            timerDisplay.innerHTML = `${hours}:${minutes}:${seconds}`;
+
+            if (--timer < 0) {
+                clearInterval(interval);
+                timerDisplay.innerHTML = "Tiden tog slut!";
+            }
+        }, 1000);
+    }
+</script></body>
+
+
+		<script type="module" data-sveltekit-hydrate="ebcoms">
+			import { start } from "./_app/immutable/start-7d254847.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="v83jmh"]').parentNode,
-				version: "1697791312216",
+				target: document.querySelector('[data-sveltekit-hydrate="ebcoms"]').parentNode,
+				version: "1699964072835",
 				hydrate: {
 					node_ids: [0, 5],
 					data: [null,null],
