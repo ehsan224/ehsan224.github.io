@@ -5,7 +5,6 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page-1258dfd5.css" rel="stylesheet">
 		<link rel="modulepreload" href="./_app/immutable/start-69be937d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-f0b0ed70.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-ec05ec49.js">
@@ -16,8 +15,7 @@
 		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-d725c765.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/scroll/_page.svelte-c2a232fa.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-66a9001c.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/login/_page.svelte-8353a38c.js">
 	</head>
 	<body style="background-color: rgb(241, 116, 7);">
 
@@ -35,27 +33,63 @@
 
 <hr>
 
+<h1 align="center">Welcome</h1>
+<head><style>body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            : 
+            background-color: #f4f4f4;
+        }
 
-  
-  <main class="svelte-1fk8y27">
-    <div class="container svelte-1fk8y27"><img style="transform: translate(0, 0px)" src="https://www.devsamples.com/parallax-layer0.png" alt="parallax layer 0" class="svelte-1fk8y27"><img style="transform: translate(0, 0px)" src="https://www.devsamples.com/parallax-layer1.png" alt="parallax layer 1" class="svelte-1fk8y27"><img style="transform: translate(0, 0px)" src="https://www.devsamples.com/parallax-layer2.png" alt="parallax layer 2" class="svelte-1fk8y27"><img style="transform: translate(0, 0px)" src="https://www.devsamples.com/parallax-layer3.png" alt="parallax layer 3" class="svelte-1fk8y27"></div>
-  
-    
-    <div class="text svelte-1fk8y27"><p>You have scrolled 0 pixels</p>
-          <p>Keep scrolling...</p></div>
-  </main>
+        h1 {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(2);
+            }
+            50% {
+                transform: scale(2.2);
+            }
+            100% {
+                transform: scale(2);
+            }
+        }
+
+        .position-button{
+         position: absolute;
+         top: 75%;
+         left: 43%;
+          }
+         button {
+         background-color: rgb(61, 94, 183);
+         width: 200px;
+         font-size: 19px;
+         padding: 2px;
+         border-radius: 100px;
+         border: 3px solid rgb(40, 174, 80);
+         color: rgb(204,255,204);
+          cursor: pointer;
+         }
+    </style></head>
+<button class="position-button">Go back to Registration</button>
 
 
-		<script type="module" data-sveltekit-hydrate="174nj8q">
+		<script type="module" data-sveltekit-hydrate="1lwhxgu">
 			import { start } from "./_app/immutable/start-69be937d.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="174nj8q"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1lwhxgu"]').parentNode,
 				version: "1701246537066",
 				hydrate: {
-					node_ids: [0, 13],
+					node_ids: [0, 9],
 					data: [null,null],
 					form: null
 				}
