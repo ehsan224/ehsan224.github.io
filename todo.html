@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="./_app/immutable/start-1cd9bd41.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-f0b0ed70.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-ec05ec49.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-fa623539.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/control-f5b05b5f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/parse-f0c618df.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-a99f5034.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/todo/_page.svelte-b31bfd9c.js">
+	</head>
+	<body style="background-color: rgb(241, 116, 7);">
+
+		<div style="display: contents">
+
+
+<nav><a href="/">Hem</a>
+  <a href="/memory">Memory</a>
+  <a href="/telltale">Telltale</a>
+  <a href="/photoapp">Photo App</a>
+  <a href="/register">Registration</a>
+  <a href="/todo">Todo</a>
+
+
+
+  <a target="_blank" rel="noreferrer" href="https://github.com/lisaviktorsson/lisaviktorsson.github.com">GitHub</a></nav>
+
+<hr>
+
+<body><div class="container"><input>
+        <div class="layout"><div class="todo"><h1>TODO</h1>
+                <div><button>ADD</button></div>
+                <ol id="todoList">
+                
+                    <li><input type="text" value="Ett list objekt"></li></ol>
+                
+                <div class="btn btn-two"><span>REMOVE</span></div></div>
+            <div class="doing"><h1>Doing</h1>
+                <ol id="doingList"><li><input type="text" value="Ett list objekt"></li>
+                    <li><input type="text" value="Ett list objekt"></li>
+                    <li><input type="text" value="Ett annat list objekt"></li></ol></div>
+            <div class="complete"><h1>Done</h1>
+                <ol id="doneList"><li><input type="text" value="Ett list objekt"></li>
+                    <li><input type="text" value="Ett list objekt"></li>
+                    <li><input type="text" value="Ett annat list objekt"></li></ol></div></div></div>
+
+    
+    <style>button{
+
+            background-color: rgb(61, 94, 183);
+            width: 50px;
+            height:30px;
+            font-size: 15px;
+            padding: 6px;
+            border-radius: 10px;
+            border: 3px solid rgb(40, 174, 80);
+            color: rgb(204,255,204);
+            cursor: pointer;
+        }
+        
+        ol{
+            list-style-type: dicemal;
+        }
+        
+        .container{
+            width:95vw;
+            height: 55vh;
+            background-color: rgb(172, 71, 253);
+            border-width: 10px;
+            border-style:solid;
+            border-color: rgb(89, 22, 245);
+            border-radius: 50px;
+            padding-top:10px;
+            padding-left:2%;
+          
+
+        }
+        
+
+        .layout{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+
+        
+        input{
+            transition: border-color 0.5s, background-color 0.5s;
+            background-color: rgb(172, 71, 253);
+            width: 300px; 
+            height: 20px;
+            border-style: hidden;
+
+        }
+        .btn {
+            line-height: 20px;
+            height: 20px;
+            text-align: center;
+            width: 100px;
+            cursor: pointer;
+        }
+        .btn-two {
+            color: #FFF;
+            transition: all 0.5s;
+            position: relative;
+            left: 5%;        /* position btn*/
+        }
+        .btn-two span {
+            z-index: 2;
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .btn-two::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            z-index: 1; 
+            transition: all 0.5s;
+            border: 1px solid rgba(255,255,255,0.2);
+            background-color: rgba(255,255,255,0.1);
+        }
+        .btn-two::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        transition: all 0.5s;
+        border: 1px solid rgba(255,255,255,0.2);
+        background-color: rgba(255,255,255,0.1);
+        }
+        .btn-two:hover::before {
+        transform: rotate(-45deg);
+        background-color: rgba(255,255,255,0);
+        }
+        .btn-two:hover::after {
+        transform: rotate(45deg);
+        background-color: rgba(255,255,255,0);
+        }
+        
+
+    </style></body>
+
+
+		<script type="module" data-sveltekit-hydrate="1k5kvx">
+			import { start } from "./_app/immutable/start-1cd9bd41.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="1k5kvx"]').parentNode,
+				version: "1702633395800",
+				hydrate: {
+					node_ids: [0, 17],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
