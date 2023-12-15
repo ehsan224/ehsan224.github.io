@@ -107,5 +107,5 @@
     </style>
 </head>
 
-<button onclick=handleSave()>Save</button>
+<button onclick=login()>Save</button>
 <button on:click={() => window.location.href = 'http://localhost:5173/login'} class="position-button">Login</button>

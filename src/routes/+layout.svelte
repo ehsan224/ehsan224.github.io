@@ -9,6 +9,8 @@
   <a href="/telltale">Telltale</a>
   <a href="/photoapp">Photo App</a>
   <a href="/register">Registration</a>
+  <a href="/todo">Todo</a>
+
 
 
   <a
