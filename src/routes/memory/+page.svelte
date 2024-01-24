@@ -63,7 +63,7 @@
   function startTimer() {
     timer = setTimeout(() => {
       endTurn();
-    }, 1090);
+    }, 10000);
   }
 
   function resetTimer() {
