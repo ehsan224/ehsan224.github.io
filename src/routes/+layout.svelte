@@ -11,6 +11,7 @@
   <a href="/register">Registration</a>
   <a href="/todo">Todo</a>
   <a href="/chat">Chat</a>
+  <a href="/search">Search</a>
 
 
 
@@ -26,6 +27,6 @@
 <slot />
 
 <style>
-
+ 
 
 </style>
