@@ -12,6 +12,11 @@
   <a href="/todo">Todo</a>
   <a href="/chat">Chat</a>
   <a href="/search">Search</a>
+  <a href="/scroll">Scroll"</a>
+  <a href="/blog">Vecka 5 "Blogg"</a>
+  <a href="/miniprojekt"> Username</a>
+  <a href="/miniprojekt2"> miniprojekt 2</a>
+  <a href="/shopping"> Shopping</a>
 
 
 

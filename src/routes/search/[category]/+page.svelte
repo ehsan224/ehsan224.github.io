@@ -83,7 +83,7 @@
 
   .bank-result {
     background-color: #f2ffe6;
-    border: 1px solid #99ff66;
+    border: 1px solid #ade292;
     padding: 10px;
     margin-bottom: 10px;
   }
