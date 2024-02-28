@@ -1,0 +1,79 @@
+---
+title: Vecka 5 "Blogg"
+date: "2024-02-02"
+keywords: ["localStorage", "points"]
+---
+
+# Introduktion
+
+### Inom webutveckling refererar "container" vanligtvis till en typ av behållare eller en uppsättning av element som används för att innehålla och organisera andra element på en webbsida. Containers används för att skapa en strukturerad och responsiv layout, där innehållet kan placeras och hanteras på ett enhetligt sätt oavsett skärmstorlek eller enhet.
+### Det finns olika sätt att implementera containers inom webutveckling.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vecka 5 Blogg</title>
+
+</head>
+<body>
+
+<header>
+    <h1>Vecka 5 Blogg</h1>
+    <p>Publiceringsdatum: 2024-02-02</p>
+</header>
+
+<main>
+    <article>
+        <h2>Introduktion</h2>
+        <p> Den följande kodsnutten försöker skapa två variabler, email och password, för att hantera användarlogin-information. Därefter finns en knapp för att logga in på en viss webbadress när den klickas på.</p>
+        <p>Koden börjar med att försöka definiera en variabel email. Den använder HTML-elementen <label> och <input> för att skapa ett formulär för e-postadress. Därefter försöker den göra samma sak för lösenordet och spara det i variabeln password. Slutligen loggar den både e-postadressen och lösenordet till konsolen i en sträng.</p>
+        <p>Efter detta kommer en knappdefinition. När knappen klickas på ska användaren omdirigeras till 'http://localhost:5173/login'.</p>
+        <p>Sammanfattningsvis försöker denna kodsnutt skapa ett användargränssnitt för att ange e-postadress och lösenord samt en knapp för att logga in. Den saknar dock nödvändig syntax för att fungera korrekt, särskilt när det gäller att inkludera HTML-kod i JavaScript. För att göra det fungerande krävs korrigeringar i syntaxen och eventuellt ytterligare funktionalitet för att hantera inmatad data.</p>
+    </article>
+</main>
+
+<footer>
+    <p>Keywords: localStorage, points</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+</style>

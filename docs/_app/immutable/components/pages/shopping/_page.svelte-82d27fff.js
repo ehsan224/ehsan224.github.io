@@ -1,4 +1,4 @@
-import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,c as E,n as P,b as K,D as o,N as er,B as U,K as J,J as C,p as A}from"../../../chunks/index-33c1631d.js";function Q(l,r,t){const a=l.slice();return a[5]=r[t],a}function Z(l,r,t){const a=l.slice();return a[8]=r[t],a}function X(l){let r,t,a,d,i=l[8].info+"",s,u,b,S;function B(){return l[4](l[8])}return{c(){r=_("div"),t=_("img"),d=x(),s=N(i),u=x(),this.h()},l(g){r=m(g,"DIV",{class:!0});var k=v(r);t=m(k,"IMG",{src:!0,style:!0}),d=E(k),s=q(k,i),u=E(k),k.forEach(f),this.h()},h(){C(t.src,a=l[8].image)||P(t,"src",a),A(t,"width","60%"),A(t,"height","60%"),P(r,"class","product")},m(g,k){K(g,r,k),o(r,t),o(r,d),o(r,s),o(r,u),b||(S=er(r,"click",B),b=!0)},p(g,k){l=g},d(g){g&&f(r),b=!1,S()}}}function rr(l){let r,t,a,d;return{c(){r=_("li"),t=_("img"),d=N(" Produkt"),this.h()},l(i){r=m(i,"LI",{});var s=v(r);t=m(s,"IMG",{src:!0,alt:!0,style:!0}),d=q(s," Produkt"),s.forEach(f),this.h()},h(){C(t.src,a=l[5])||P(t,"src",a),P(t,"alt","Produkt"),A(t,"width","40px"),A(t,"height","40px")},m(i,s){K(i,r,s),o(r,t),o(r,d)},p(i,s){s&1&&!C(t.src,a=i[5])&&P(t,"src",a)},d(i){i&&f(r)}}}function ir(l){let r,t,a,d,i,s,u,b,S,B,g,k,L,H,G,O,T,V,Y,M,D=l[1],c=[];for(let n=0;n<D.length;n+=1)c[n]=X(Z(l,D,n));let j=l[0],h=[];for(let n=0;n<j.length;n+=1)h[n]=rr(Q(l,j,n));return{c(){r=_("body"),t=_("h1"),a=N("Kläder och Skor"),d=x(),i=_("div");for(let n=0;n<c.length;n+=1)c[n].c();s=x(),u=_("div"),b=_("h1"),S=N("Varukorge"),B=x(),g=_("ol");for(let n=0;n<h.length;n+=1)h[n].c();k=x(),L=_("div"),H=_("button"),G=N("Handla"),O=x(),T=_("style"),V=N(`.container{\r
+import{S as tr,i as nr,s as or,k as _,q as N,a as y,l as m,m as v,r as q,h as f,c as E,n as P,b as K,D as o,N as er,B as U,K as J,J as C,p as A}from"../../../chunks/index-33c1631d.js";function Q(l,r,t){const a=l.slice();return a[5]=r[t],a}function Z(l,r,t){const a=l.slice();return a[8]=r[t],a}function X(l){let r,t,a,d,i=l[8].info+"",s,u,b,S;function B(){return l[4](l[8])}return{c(){r=_("div"),t=_("img"),d=y(),s=N(i),u=y(),this.h()},l(g){r=m(g,"DIV",{class:!0});var k=v(r);t=m(k,"IMG",{src:!0,style:!0}),d=E(k),s=q(k,i),u=E(k),k.forEach(f),this.h()},h(){C(t.src,a=l[8].image)||P(t,"src",a),A(t,"width","60%"),A(t,"height","60%"),P(r,"class","product")},m(g,k){K(g,r,k),o(r,t),o(r,d),o(r,s),o(r,u),b||(S=er(r,"click",B),b=!0)},p(g,k){l=g},d(g){g&&f(r),b=!1,S()}}}function rr(l){let r,t,a,d;return{c(){r=_("li"),t=_("img"),d=N(" Produkt"),this.h()},l(i){r=m(i,"LI",{});var s=v(r);t=m(s,"IMG",{src:!0,alt:!0,style:!0}),d=q(s," Produkt"),s.forEach(f),this.h()},h(){C(t.src,a=l[5])||P(t,"src",a),P(t,"alt","Produkt"),A(t,"width","40px"),A(t,"height","40px")},m(i,s){K(i,r,s),o(r,t),o(r,d)},p(i,s){s&1&&!C(t.src,a=i[5])&&P(t,"src",a)},d(i){i&&f(r)}}}function ir(l){let r,t,a,d,i,s,u,b,S,B,g,k,L,H,G,O,T,V,Y,M,D=l[1],c=[];for(let n=0;n<D.length;n+=1)c[n]=X(Z(l,D,n));let j=l[0],h=[];for(let n=0;n<j.length;n+=1)h[n]=rr(Q(l,j,n));return{c(){r=_("body"),t=_("h1"),a=N("Kläder och Skor"),d=y(),i=_("div");for(let n=0;n<c.length;n+=1)c[n].c();s=y(),u=_("div"),b=_("h1"),S=N("Varukorge"),B=y(),g=_("ol");for(let n=0;n<h.length;n+=1)h[n].c();k=y(),L=_("div"),H=_("button"),G=N("Handla"),O=y(),T=_("style"),V=N(`.container{\r
             width:78vw;\r
             height: 75vh;\r
             background-color: rgb(172, 71, 253);\r
@@ -17,7 +17,7 @@ import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,
 \r
         }\r
 \r
-        .varukorge{\r
+        .varukorg{\r
             width:17vw;\r
             height: 75vh;\r
             background-color:#ade292;\r
@@ -27,8 +27,8 @@ import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,
             border-radius: 10px;\r
             padding-top:10px;\r
             padding-left:2%;\r
-            position:absolute;\r
-            right:1%;\r
+            position:fixed;\r
+            right:12px;\r
            \r
 \r
 \r
@@ -59,7 +59,7 @@ import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,
             position:absolute;\r
             bottom:2%;\r
             left:35%;\r
-       }`),this.h()},l(n){r=m(n,"BODY",{});var p=v(r);t=m(p,"H1",{});var e=v(t);a=q(e,"Kläder och Skor"),e.forEach(f),d=E(p),i=m(p,"DIV",{class:!0});var w=v(i);for(let y=0;y<c.length;y+=1)c[y].l(w);w.forEach(f),s=E(p),u=m(p,"DIV",{class:!0});var I=v(u);b=m(I,"H1",{});var $=v(b);S=q($,"Varukorge"),$.forEach(f),B=E(I),g=m(I,"OL",{});var z=v(g);for(let y=0;y<h.length;y+=1)h[y].l(z);z.forEach(f),k=E(I),L=m(I,"DIV",{});var F=v(L);H=m(F,"BUTTON",{});var W=v(H);G=q(W,"Handla"),W.forEach(f),F.forEach(f),I.forEach(f),O=E(p),T=m(p,"STYLE",{});var R=v(T);V=q(R,`.container{\r
+       }`),this.h()},l(n){r=m(n,"BODY",{});var p=v(r);t=m(p,"H1",{});var e=v(t);a=q(e,"Kläder och Skor"),e.forEach(f),d=E(p),i=m(p,"DIV",{class:!0});var w=v(i);for(let x=0;x<c.length;x+=1)c[x].l(w);w.forEach(f),s=E(p),u=m(p,"DIV",{class:!0});var I=v(u);b=m(I,"H1",{});var $=v(b);S=q($,"Varukorge"),$.forEach(f),B=E(I),g=m(I,"OL",{});var z=v(g);for(let x=0;x<h.length;x+=1)h[x].l(z);z.forEach(f),k=E(I),L=m(I,"DIV",{});var F=v(L);H=m(F,"BUTTON",{});var W=v(H);G=q(W,"Handla"),W.forEach(f),F.forEach(f),I.forEach(f),O=E(p),T=m(p,"STYLE",{});var R=v(T);V=q(R,`.container{\r
             width:78vw;\r
             height: 75vh;\r
             background-color: rgb(172, 71, 253);\r
@@ -78,7 +78,7 @@ import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,
 \r
         }\r
 \r
-        .varukorge{\r
+        .varukorg{\r
             width:17vw;\r
             height: 75vh;\r
             background-color:#ade292;\r
@@ -88,8 +88,8 @@ import{S as tr,i as nr,s as or,k as _,q as N,a as x,l as m,m as v,r as q,h as f,
             border-radius: 10px;\r
             padding-top:10px;\r
             padding-left:2%;\r
-            position:absolute;\r
-            right:1%;\r
+            position:fixed;\r
+            right:12px;\r
            \r
 \r
 \r

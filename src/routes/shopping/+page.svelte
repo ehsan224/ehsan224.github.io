@@ -17,11 +17,11 @@ let products = [
     
     let shoppingList = [];
 
-function addToCart(product) {
+  function addToCart(product) {
   shoppingList = [...shoppingList, product]; 
 }
 
-function eraseList() {
+  function eraseList() {
     shoppingList = [];
    
   }
@@ -94,7 +94,7 @@ function eraseList() {
 
         }
 
-        .varukorge{
+        .varukorg{
             width:17vw;
             height: 75vh;
             background-color:#ade292;
@@ -104,8 +104,8 @@ function eraseList() {
             border-radius: 10px;
             padding-top:10px;
             padding-left:2%;
-            position:absolute;
-            right:1%;
+            position:fixed;
+            right:12px;
            
 
 
