@@ -4,20 +4,6 @@ date: "2024-02-02"
 keywords: ["localStorage", "points"]
 ---
 
-# Introduktion
-
-### Inom webutveckling refererar "container" vanligtvis till en typ av behållare eller en uppsättning av element som används för att innehålla och organisera andra element på en webbsida. Containers används för att skapa en strukturerad och responsiv layout, där innehållet kan placeras och hanteras på ett enhetligt sätt oavsett skärmstorlek eller enhet.
-### Det finns olika sätt att implementera containers inom webutveckling.
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vecka 5 Blogg</title>
-
-</head>
 <body>
 
 <header>
@@ -27,11 +13,10 @@ keywords: ["localStorage", "points"]
 
 <main>
     <article>
-        <h2>Introduktion</h2>
-        <p> Den följande kodsnutten försöker skapa två variabler, email och password, för att hantera användarlogin-information. Därefter finns en knapp för att logga in på en viss webbadress när den klickas på.</p>
-        <p>Koden börjar med att försöka definiera en variabel email. Den använder HTML-elementen <label> och <input> för att skapa ett formulär för e-postadress. Därefter försöker den göra samma sak för lösenordet och spara det i variabeln password. Slutligen loggar den både e-postadressen och lösenordet till konsolen i en sträng.</p>
-        <p>Efter detta kommer en knappdefinition. När knappen klickas på ska användaren omdirigeras till 'http://localhost:5173/login'.</p>
-        <p>Sammanfattningsvis försöker denna kodsnutt skapa ett användargränssnitt för att ange e-postadress och lösenord samt en knapp för att logga in. Den saknar dock nödvändig syntax för att fungera korrekt, särskilt när det gäller att inkludera HTML-kod i JavaScript. För att göra det fungerande krävs korrigeringar i syntaxen och eventuellt ytterligare funktionalitet för att hantera inmatad data.</p>
+        <h2 style="font-weight:bold;">Shopping Projekt</h2>
+        <p> <br>Den här webbapplikationen simulerar en onlinebutik för kläder och skor. Genom att använda den kan användare bläddra igenom olika produkter och lägga till dem i en kundvagn för att slutföra sina köp.</p>
+        <p><br>Applikationen visar en lista över produkter med tillhörande bilder och beskrivningar. Varje produkt visas som en separat enhet som användare kan interagera med genom att klicka på den för att lägga till i kundvagnen. Kundvagnen visas på skärmen och uppdateras när produkter läggs till. Det finns också en knapp för att tömma kundvagnen och börja om.</p>
+        <p><br>Genom att erbjuda en användarvänlig gränssnitt kan denna webbapplikation användas för att bläddra igenom och välja bland olika kläder och skor. Genom att klicka på produkter kan användare enkelt lägga till dem i kundvagnen och slutföra sina köp. Det ger en smidig och interaktiv upplevelse för online shopping.</p>
     </article>
 </main>
 
@@ -41,14 +26,13 @@ keywords: ["localStorage", "points"]
 
 <script src="script.js"></script>
 </body>
-</html>
 
 <style>
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    
 }
 
 header {
@@ -75,5 +59,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+p {
+        line-height: 1.5;
+
 }
 </style>
