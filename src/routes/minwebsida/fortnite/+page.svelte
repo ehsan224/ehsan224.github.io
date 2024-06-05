@@ -1,0 +1,207 @@
+<script>
+    import { onMount } from 'svelte';
+
+   
+</script>
+
+<svelte:head>
+</svelte:head>
+<div class="back">
+</div>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/minwebsida"><span style="color: white;"> Home</span></a></li>
+            <li><a href="/minwebsida/ranking"><span style="color: white;"> Rank</span></a></li>
+            
+        </ul>
+    </nav>
+    <h1>Fortnite Spelstatistik</h1>
+</header>
+<section>
+
+    <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="item"><h5><span style="color: white;">Antal nedladdningar</span></h5><p> <br>Totala nedladdningar (alla plattformar): 250 miljoner</p></div>
+            <div class="item2"><h5><span style="color: white;">Antal spelare online</span></h5>
+            <p>Totalt antal spelare: 3 miljoner
+                Antal spelare i Battle Royale-läget: 2,5 miljoner
+                Antal spelare i Creative-läget: 300 000
+                Antal spelare i Rädda världen-läget: 200 000</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="item2"><h5><span style="color: white;">Senaste uppdateringen</span></h5><p>Uppdateringsdatum: 25 april 2024
+                Innehåll: Lade till nya säsongsbetonade kosmetiska föremål och vapen, samt buggfixar och prestandaförbättringar.</p></div>
+            <div class="item"><h5><span style="color: white;">Genomsnittlig speltid per session</span></h5><p>Battle Royale-läget: 30 minuter
+                Creative-läget: 45 minuter
+                Rädda världen-läget: 60 minuter</p></div>
+          </div>
+          <div class="row">
+            <div class="item5"><h5><span style="color: white;">Betyg i appbutiker</span></h5><p>App Store:
+                Betyg: ★★★★★ (4.8)
+                Google Play:
+                Betyg: Ej tillgängligt (endast tillgängligt på Android via Epic Games Store)</p></div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<style>
+    h1{
+        text-align: center;
+        animation: rubrik 1s ease-in-out;
+        font-size: 90px;
+        color: bisque;
+        text-shadow: 10px -5px 4px rgba(240, 106, 53, 0.927); /* X-offset, Y-offset, Blur-radius, Shadow-color */
+        
+    }
+    .back{
+        position: fixed;
+        left: 0%;
+        top:0%;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("/src/routes/minwebsida/ranking/eclipse.jpg");
+        z-index: -1;
+    }
+    header{
+        padding: 20px;
+        background-size:100%;
+        background-position:center;
+        height:100px;   
+    }
+    
+    ul{
+        margin:0px;
+        padding:0px;
+        list-style-type:none;
+    }
+    li{
+        display:inline-block;
+        margin:0px 0px 100px 20px;
+        color:red;
+        
+    }
+    li:hover{
+        background-color:lightgreen;
+        text-decoration:underline;
+    }
+    /* section*/
+    .container {
+        position: relative;
+        left: 37%;
+        display: flex;
+        flex-direction: column; 
+        width: 410px;
+        height: 814px;
+        border: 2px solid rgb(16, 15, 15);
+        
+    }
+
+    .wrapper {
+         width: 100%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between; 
+        flex: 1; /* Flex-grow för att rader ska växa lika mycket */
+    }
+
+    .item {
+        width: 199px;
+        height: 200px;
+        background-color:red;
+        border: 2px solid rgb(159, 237, 86);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+        animation: fade1och4 1.5s ease-in-out;
+        transition: transform 0.7s ease-out;
+    }
+    .item2 {
+        width: 199px;
+        height: 300px;
+        background-color:red;
+        border: 2px solid rgb(159, 237, 86);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px ;
+        animation: fade2 1.5s ease-in-out;
+        transition: transform 0.7s ease-out;
+    }
+    .item5 {
+        width: 405px;
+        height: 200px;
+        background-color:red;
+        border: 2px solid rgb(159, 237, 86);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px ;
+        animation: fadeIN 1.5s ease-in-out;
+        transition: transform 0.7s ease-out;
+    }
+    section{
+        margin-top:300px ;
+    }
+    @keyframes fadeIN{
+        0%{
+            opacity: 1;
+            transform:translateX(-200px);
+        }
+        100%{
+            opacity: 1;
+            transform:translateX(0);
+        }
+    }
+
+    @keyframes fade1och4{
+        0%{
+            opacity: 1;
+            transform:translateY(200px);
+        }
+        100%{
+            opacity: 1;
+            transform:translateY(0);
+        }
+    }
+    @keyframes fade2{
+        0%{
+            opacity: 1;
+            transform:translateX(200px);
+        }
+        100%{
+            opacity: 1;
+            transform:translateX(0);
+        }
+    }
+    @keyframes rubrik {
+    0%, 20%, 50%, 80%, 100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    40% {
+        opacity: 1;
+        transform: translateY(-100px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(-50px);
+        }
+        90%{
+            opacity: 1;
+            transform: translateY(-20px);
+        }
+    }
+    section div div div div:hover{
+      transform: scale(1.1, 1.1);
+    }
+    
+    
+    </style>

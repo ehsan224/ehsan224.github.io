@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head styel="background-color: rgb(241, 116, 7);">
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="./_app/immutable/start-84980b05.js">
+		<link rel="modulepreload" href="./_app/immutable/start-516d4eb6.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-33c1631d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-2196fbf0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index-7a3b6b3b.js">
@@ -15,9 +15,9 @@
 		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-92057973.js">
 		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/todo/_page.svelte-d7f50c74.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/todo/_page.svelte-99a70950.js">
 	</head>
-	<body style="background-color: rgb(241, 116, 7);">
+	<body>
 
 		<div style="display: contents">
 
@@ -42,23 +42,18 @@
 
 <hr>
 
-<body><div class="container"><input>
+<body style="background-color: rgb(241, 116, 7);"><div class="container"><input>
         <div class="layout"><div class="todo"><h1>TODO</h1>
                 <div><button>ADD</button></div>
-                <ol id="todoList">
-                
-                    <li><input type="text" value="Ett list objekt"></li></ol>
-                
-                <div class="btn btn-two"><span>REMOVE</span></div></div>
-            <div class="doing"><h1>Doing</h1>
-                <ol id="doingList"><li><input type="text" value="Ett list objekt"></li>
-                    <li><input type="text" value="Ett list objekt"></li>
-                    <li><input type="text" value="Ett annat list objekt"></li></ol></div>
+                <ul id="todoList">
+                    <li><input type="text" value="Ett list objekt"> <input type="checkbox"></li></ul></div>
             <div class="complete"><h1>Done</h1>
-                <ol id="doneList"><li><input type="text" value="Ett list objekt"></li>
-                    <li><input type="text" value="Ett list objekt"></li>
-                    <li><input type="text" value="Ett annat list objekt"></li></ol></div></div></div>
-
+                <ul id="doneList">
+                    <li><input type="text" value="Ett list objekt"> <input type="checkbox"></li></ul></div>
+            
+            <div class="complete"><h1>Done</h1>
+                <ul id="doneList">
+                    <li><input type="text" value="Ett list objekt"> <input type="checkbox"></li></ul></div></div></div>
     
     <style>button{
 
@@ -107,73 +102,22 @@
             border-style: hidden;
 
         }
-        .btn {
-            line-height: 20px;
-            height: 20px;
-            text-align: center;
-            width: 100px;
-            cursor: pointer;
-        }
-        .btn-two {
-            color: #FFF;
-            transition: all 0.5s;
-            position: relative;
-            left: 5%;        /* position btn*/
-        }
-        .btn-two span {
-            z-index: 2;
-            display: block;
-            position: absolute;
-            width: 100%;
-            height: 100%;
-        }
-        .btn-two::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0%;
-            width: 100%;
-            height: 100%;
-            z-index: 1; 
-            transition: all 0.5s;
-            border: 1px solid rgba(255,255,255,0.2);
-            background-color: rgba(255,255,255,0.1);
-        }
-        .btn-two::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        transition: all 0.5s;
-        border: 1px solid rgba(255,255,255,0.2);
-        background-color: rgba(255,255,255,0.1);
-        }
-        .btn-two:hover::before {
-        transform: rotate(-45deg);
-        background-color: rgba(255,255,255,0);
-        }
-        .btn-two:hover::after {
-        transform: rotate(45deg);
-        background-color: rgba(255,255,255,0);
-        }
+     
         
 
     </style></body>
 
 
-		<script type="module" data-sveltekit-hydrate="1mp43jl">
-			import { start } from "./_app/immutable/start-84980b05.js";
+		<script type="module" data-sveltekit-hydrate="1arnand">
+			import { start } from "./_app/immutable/start-516d4eb6.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1mp43jl"]').parentNode,
-				version: "1709109773067",
+				target: document.querySelector('[data-sveltekit-hydrate="1arnand"]').parentNode,
+				version: "1717575623086",
 				hydrate: {
-					node_ids: [0, 21],
+					node_ids: [0, 28],
 					data: [null,null],
 					form: null
 				}

@@ -1,0 +1,66 @@
+---
+title: Vecka 13
+date: "2024-03-17"
+keywords: ["localStorage", "points"]
+---
+
+<body>
+
+<header>
+    <h1>Vecka 13 Blogg</h1>
+    <p>Publiceringsdatum: 2024-03-27</p>
+</header>
+
+<main>
+    <article>
+        <h2 style="font-weight:bold;"></h2>
+        <p>Jag arbetade huvudsakligen med den primära sidan och dess stil, samt utförde några justeringar för att lägga till en parallaxeffekt. Nästa lektion kommer jag försätta med att göra klar med parallaxeffekt och innehållet som jag vill lägga </p>
+    </article>
+</main>
+
+<footer>
+    <p>Keywords: localStorage, points</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+p {
+        line-height: 1.5;
+
+}
+</style>

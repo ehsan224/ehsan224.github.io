@@ -1,0 +1,17 @@
+{
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "jsx": "preserve",
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "typeAcquisition": {
+      "include": ["svelte"]
+    }
+  }
+  

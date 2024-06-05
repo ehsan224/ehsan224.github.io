@@ -37,7 +37,7 @@ let products = [
     
 </script>
 
-<body>
+<body  style="background-color: rgb(241, 116, 7);">
     <h1>Kläder och Skor</h1>
     <div class="container">
         {#each products as product }
